@@ -1,0 +1,12 @@
+<script src="cu.js"></script>
+<main>
+    <function name="fib" n>
+        <if condition="n < 2">
+            <return value="n" />
+        </if>
+
+        <return value="fib(n - 1) + fib(n - 2)" />
+    </function>
+    
+    <print value="fib(20)" />
+</main>

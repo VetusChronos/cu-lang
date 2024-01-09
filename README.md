@@ -1,56 +1,56 @@
-# Linguagem de Programação Cu
+# Cu Programming Language
 
-Cu é uma "linguagem de programação" simples, diferente e feita quando eu estava com tempo livre. Ela é escrita dentro de arquivos HTML, e é interpretada por um script JavaScript chamado `cu.js`.
+Cu is a simple, quirky "programming language" created when I had some free time. It's written within HTML files and interpreted by a JavaScript script called `cu.js`.
 
-## Como Usar
+## How to Use
 
-Para usar a linguagem Cu, você precisa incluir o script `cu.js` em seu arquivo HTML e escrever seu código dentro de tags HTML específicas. Todo o código Cu deve estar dentro de uma tag `<main>`.
+To use the Cu language, you need to include the `cu.js` script in your HTML file and write your code within specific HTML tags. All Cu code must be within a `<main>` tag.
 
-## Sintaxe
+## Syntax
 
-### Funções
+### Functions
 
-Para definir uma função, você deve usar a tag `<function>` com o atributo `name` para o nome da função. Os argumentos da função são representados pelos atributos adicionais na tag `<function>`. O corpo da função é escrito entre as tags `<function>` e `</function>`.
+To define a function, you should use the `<function>` tag with the `name` attribute for the function's name. Function arguments are represented by additional attributes in the `<function>` tag. The function's body is written between the `<function>` and `</function>` tags.
 
-Exemplo:
+Example:
 ```html
 <function name="myFunction" arg1 arg2>
-  <!-- Código da função aqui -->
+  <!-- Function code here -->
 </function>
 ```
 
-### Condicionais
+### Conditionals
 
-Para criar uma instrução condicional, você deve usar a tag `<if>` com o atributo `condition` para a condição. O corpo da instrução condicional é escrito entre as tags `<if>` e `</if>`.
+To create a conditional statement, use the `<if>` tag with the `condition` attribute for the condition. The conditional statement's body is written between the `<if>` and `</if>` tags.
 
-Exemplo:
+Example:
 ```html
 <if condition="arg1 > arg2">
-  <!-- Código a ser executado se a condição for verdadeira -->
+  <!-- Code to execute if the condition is true -->
 </if>
 ```
 
-### Retorno
+### Return
 
-Para retornar um valor de uma função, você deve usar a tag `<return>` com o atributo `value` para o valor a ser retornado.
+To return a value from a function, use the `<return>` tag with the `value` attribute for the value to be returned.
 
-Exemplo:
+Example:
 ```html
 <return value="arg1 + arg2" />
 ```
 
-### Impressão
+### Printing
 
-Para imprimir algo no console, você deve usar a tag `<print>` com o atributo `value` para o valor a ser impresso.
+To print something to the console, use the `<print>` tag with the `value` attribute for the value to be printed.
 
-Exemplo:
+Example:
 ```html
 <print value="Hello, world!" />
 ```
 
-## Exemplo de Código
+## Code Example
 
-Aqui está um exemplo de um programa Cu que calcula o enésimo número na sequência de Fibonacci:
+Here's an example of a Cu program that calculates the nth number in the Fibonacci sequence:
 
 ```html
 <script src="cu.js"></script>
@@ -67,4 +67,5 @@ Aqui está um exemplo de um programa Cu que calcula o enésimo número na sequê
 </main>
 ```
 
-> Este programa define uma função `fib` que calcula o enésimo número na sequência de Fibonacci e, em seguida, imprime o 20º número na sequência.
+> This program defines a `fib` function that calculates the nth number in the Fibonacci sequence and then prints the 20th number in the sequence.
+
